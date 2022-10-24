@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="ETL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ETL_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ETL.jar">
+        <element id="module-output" name="ETL" />
+      </element>
+      <element id="library" level="project" name="postgresql-42.5.0" />
+      <element id="library" level="project" name="log4j-core-2.19.0" />
+      <element id="library" level="project" name="auxiliary" />
+      <element id="library" level="project" name="poi-bin-5.2" />
+      <element id="library" level="project" name="ooxml-lib" />
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>
